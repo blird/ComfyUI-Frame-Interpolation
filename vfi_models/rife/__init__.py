@@ -48,7 +48,7 @@ class RIFE_VFI:
                 "fast_mode": ("BOOLEAN", {"default":True}),
                 "ensemble": ("BOOLEAN", {"default":True}),
                 "scale_factor": ([0.25, 0.5, 1.0, 2.0, 4.0], {"default": 1.0}),
-                "batch_size": ("INT", {"default": 1, "min": 1, "max": 16, "step": 1})
+                "batch_size": ("INT", {"default": 1, "min": 1, "max": 32, "step": 1})
             },
             "optional": {
                 "optional_interpolation_states": ("INTERPOLATION_STATES", )
